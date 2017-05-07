@@ -33,3 +33,41 @@ $fontSize: 14px
   a.is-brand
     font-size: 100%
     color: $darkGrey
+
+@media screen and (min-width: 320px)
+  .col
+    width: 100%
+
+@media (min-width: 600px)
+  .col
+    width: 47%
+
+@media (min-width: 830px)
+    .col
+      width: 31%
+
+.col
+  display: inline-block
+  padding: 10px
+  margin: 0 1% 10px
+
+.card
+  padding: 10px 10px
+  background: #fff
+  box-shadow: none
+  margin-bottom: 20px
+
+  img
+    width: 100%
+
+.img.card
+  background: no-repeat 50% 50%
+  background-size: cover
+  height: 300px
+
+.spinner-container
+  padding: 100px 0 90px
+  text-align: center
+
+  & > *
+    font-size: 50px

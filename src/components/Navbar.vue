@@ -5,7 +5,7 @@
         <nav class="nav">
           <div class="nav-left">
             <div class="nav-item brand">
-              <a class="is-brand" target="_blank" href="https://www.flickr.com/">Flickr</a>
+              <a class="is-brand" target="_blank" href="https://www.smartdevs.io">SmartDevs.io</a>
             </div>
           </div>
           <div class="nav-center">
