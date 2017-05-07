@@ -30,8 +30,8 @@
 
           <div class="nav-right nav-menu">
             <span class="nav-item">
-              <a class="button" target="_blank" href="https://github.com/neeilya">
-                <span>Github</span>
+              <a target="_blank" href="https://github.com/neeilya/flickr-browser">
+                <span><i class="fa fa-github" aria-hidden="true"></i></span>
               </a>
             </span>
           </div>
