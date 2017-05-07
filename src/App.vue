@@ -1,11 +1,22 @@
 <template>
-    <div></div>
+    <div>
+      <navbar @tagChange="onTagChange" />
+    </div>
 </template>
 
 <script>
-export default {
-  //
-};
+  import Navbar from './components/Navbar.vue';
+
+  export default {
+    components: {
+      Navbar,
+    },
+    methods: {
+      onTagChange() {
+        //
+      },
+    },
+  };
 </script>
 
 <style lang="sass">
