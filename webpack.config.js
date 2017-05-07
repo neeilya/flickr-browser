@@ -26,6 +26,10 @@ module.exports = {
         }
       },
       {
+        test: /\.sass$/,
+        loader: 'css-loader!sass-loader'
+      },
+      {
         test: /\.js/,
         enforce: 'pre',
         loader: 'eslint-loader',
